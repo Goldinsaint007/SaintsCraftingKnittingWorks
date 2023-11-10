@@ -1,0 +1,47 @@
+module SaintsCrafting {
+	imports {
+		Base, newitems
+	}
+
+  item RippedLinens {
+    DisplayCategory = Household,
+    CanBandage = TRUE,
+    Weight = 0.015,
+    AlwaysWelcomeGift = TRUE,
+    Type = Normal,
+    DisplayName = Ripped Linens,
+    ReplaceOnUse = RippedLinensDirty,
+    Icon = LinenRag,
+    BandagePower = 1,
+    Tooltip = Tooltip_RippedLinens,
+    FabricType = Linen,
+		WorldStaticModel = RippedSheets,
+  }
+
+	item RippedLinensDirty {
+    DisplayCategory = Household,
+    CanBandage	=	TRUE,
+    Weight	=	0.015,
+    AlwaysWelcomeGift	=	TRUE,
+    Type	=	Normal,
+    DisplayName	=	Dirty Linen Rag,
+    Icon	=	LinenRagDirty,
+    BandagePower    =   0.5,
+    WorldStaticModel = RippedSheetsDirty,
+  }
+
+  item AlcoholRippedLinens {
+    DisplayCategory = FirstAid,
+    CanBandage	=	TRUE,
+    Weight	=	0.015,
+    AlwaysWelcomeGift	=	TRUE,
+    Alcoholic	=	TRUE,
+    Type	=	Normal,
+    DisplayName	=	Sterilized Linen Rag,
+    ReplaceOnUse    =   RippedLinensDirty,
+    Icon	=	LinenRag,
+    BandagePower    =   2,
+    Tooltip = Tooltip_SterilizedLinenRag,
+		WorldStaticModel = RippedSheets,
+  }
+}

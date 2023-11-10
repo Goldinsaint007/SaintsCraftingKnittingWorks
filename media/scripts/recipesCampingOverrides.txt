@@ -1,0 +1,25 @@
+module camping {
+	imports {
+		Base
+	}
+
+  recipe Make Campfire Kit {
+    Plank = 3,
+    RippedLinens/RippedLinensDirty/RippedSheets/RippedSheetsDirty/Sheet/Book/Magazine/Newspaper/Twigs,
+
+    Result:CampfireKit,
+    Time:50.0,
+    Category:Survivalist,
+    Override:true,
+  }
+
+  recipe Make Campfire Kit {
+    Log = 2,
+    RippedLinens/RippedLinensDirty/RippedSheets/RippedSheetsDirty/Sheet/Book/Magazine/Newspaper/Twigs,
+
+    Result:CampfireKit,
+    Time:50.0,
+    Category:Survivalist,
+    Override:true,
+  }
+}

@@ -1,0 +1,6 @@
+Recipes_EN = {
+  Recipe_Cut_Cotton_Clothing = "Cut Clothing",
+  Recipe_Cut_Denim_Clothing = "Cut Clothing",
+  Recipe_Cut_Leather_Clothing = "Cut Clothing",
+  Recipe_Cut_Linen_Clothing = "Cut Clothing",
+}

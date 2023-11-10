@@ -1,0 +1,128 @@
+module SaintsCrafting {
+	imports {
+		Base, newitems
+	}
+  
+  /* Tier 0 */
+  
+  /* Tier 1 */
+  recipe Cut Cotton Clothing {
+    [Recipe.GetItemTypes.RipClothing_Cotton],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=1,
+    Result:RippedSheets,
+    RemoveResultItem:true,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:100.0,
+    AnimNode:RipSheets,
+    OnCreate:Recipe.OnCreate.CutClothing21,
+    OnTest:Recipe.OnTest.IsNotWorn,
+  }
+
+  recipe Cut Cotton Clothing { /*this second recipe is so that worn clothing items are not consumed when ripping all clothing*/
+    [Recipe.GetItemTypes.RipClothing_Cotton],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=1,
+    Result:RippedSheets,
+    RemoveResultItem:true,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:100.0,
+    AnimNode:RipSheets,
+    OnCreate:Recipe.OnCreate.CutClothing21,
+    OnTest:Recipe.OnTest.IsWorn,
+  }
+
+  recipe Cut Denim Clothing {
+    [Recipe.GetItemTypes.RipClothing_Denim],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=1,
+    Result:DenimStrips,
+    RemoveResultItem:true,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:100.0,
+    AnimNode:RipSheets,
+    OnCreate:Recipe.OnCreate.CutClothing21,
+    OnTest:Recipe.OnTest.IsNotWorn,
+  }
+
+  recipe Cut Denim Clothing { /*this second recipe is so that worn clothing items are not consumed when ripping all clothing*/
+    [Recipe.GetItemTypes.RipClothing_Denim],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=1,
+    Result:DenimStrips,
+    RemoveResultItem:true,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:100.0,
+    AnimNode:RipSheets,
+    OnCreate:Recipe.OnCreate.CutClothing21,
+    OnTest:Recipe.OnTest.IsWorn,
+  }
+
+  recipe Cut Leather Clothing {
+    [Recipe.GetItemTypes.RipClothing_Leather],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=1,
+    Result:LeatherStrips,
+    RemoveResultItem:true,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:100.0,
+    AnimNode:RipSheets,
+    OnCreate:Recipe.OnCreate.CutClothing21,
+    OnTest:Recipe.OnTest.IsNotWorn,
+  }
+
+  recipe Cut Leather Clothing { /*this second recipe is so that worn clothing items are not consumed when ripping all clothing*/
+    [Recipe.GetItemTypes.RipClothing_Leather],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=1,
+    Result:LeatherStrips,
+    RemoveResultItem:true,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:100.0,
+    AnimNode:RipSheets,
+    OnCreate:Recipe.OnCreate.CutClothing21,
+    OnTest:Recipe.OnTest.IsWorn,
+  }
+
+  recipe Cut Linen Clothing {
+    [Recipe.GetItemTypes.RipClothing_Linen],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=1,
+    Result:RippedLinens,
+    RemoveResultItem:true,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:100.0,
+    AnimNode:RipSheets,
+    OnCreate:Recipe.OnCreate.CutClothing21,
+    OnTest:Recipe.OnTest.IsNotWorn,
+  }
+
+  recipe Cut Linen Clothing { /*this second recipe is so that worn clothing items are not consumed when ripping all clothing*/
+    [Recipe.GetItemTypes.RipClothing_Linen],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=1,
+    Result:RippedLinens,
+    RemoveResultItem:true,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:100.0,
+    AnimNode:RipSheets,
+    OnCreate:Recipe.OnCreate.CutClothing21,
+    OnTest:Recipe.OnTest.IsWorn,
+  }
+}
