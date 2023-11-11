@@ -1,3 +1,4 @@
+-- Code copied from server/recipecode/RipClothing.lua
 local function RipClothing_GetItemTypes_XXX(scriptItems, fabricType)
     if not ClothingRecipesDefinitions["FabricType"][fabricType] then
         return
@@ -15,7 +16,7 @@ local function RipClothing_GetItemTypes_XXX(scriptItems, fabricType)
     end
 end
 
--- Code copied from server/recipecode/RipClothing.lua
 function Recipe.GetItemTypes.RipClothing_Linen(scriptItems)
   RipClothing_GetItemTypes_XXX(scriptItems, "Linen")
 end
+

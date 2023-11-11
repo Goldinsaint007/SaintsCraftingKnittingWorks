@@ -87,3 +87,19 @@ function Recipe.OnCreate.CutClothing21(items, result, player, selectedItem)
     player:getXp():AddXP(Perks.Tailoring, 1);
   end
 end
+
+function Recipe.OnCreate.UntieClothRoll(items, result, player)
+  player:getInventory():AddItem("SaintsRopes.ShortRope");
+end
+
+function Recipe.OnCreate.CutCottonClothRoll(items, result, player)
+  local item = items:get(0);
+
+  if item:getType() == "SmallCottonClothRoll" then
+    player:getInventory():AddItem("SaintsRopes.ShortClothRollStick");
+  elseif item:getType() == "CottonClothRoll" then
+    player:getInventory():AddItem("SaintsRopes.ClothRollStick");
+  elseif item:getType() == "BigCottonClothRoll" then
+    player:getInventory():AddItem("SaintsRopes.LongClothRollStick");
+  end
+end

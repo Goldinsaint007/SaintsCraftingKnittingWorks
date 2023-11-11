@@ -1,0 +1,152 @@
+module SaintsCrafting {
+	imports {
+		Base, newitems
+	}
+
+  /* Small */
+  item SmallCottonCloth {
+    DisplayCategory = Knitting,
+    Weight = 0.025,
+    Type = Normal,
+    DisplayName = Small Cotton Cloth,
+    Icon = CottonCloth,
+    Tooltip = Tooltip_CottonCloth,
+    FabricType = Cotton,
+  }
+
+  item SmallCottonClothRoll {
+    DisplayCategory = Knitting,
+    Weight = 0.09,
+    Type = Normal,
+    DisplayName = Small Cotton Cloth Roll,
+    Icon = SmallCottonClothRoll,
+    Tooltip = Tooltip_CottonClothRoll,
+    FabricType = Cotton,
+  }
+
+  item SmallCottonClothRollBundle {
+    DisplayCategory = Knitting,
+    Weight = 0.8,
+    Type = Normal,
+    DisplayName = Small Cotton Cloth Roll Bundle,
+    Icon = SmallCottonClothRollBundle,
+    Tooltip = Tooltip_CottonClothRoll,
+    FabricType = Cotton,
+  }
+
+  item ShortClothRollStick {
+    DisplayCategory = Knitting,
+    Weight = 0.01,
+    Type = Normal,
+    DisplayName = Short Cloth Roll Stick,
+    Icon = ShortClothRollStick,
+    Tooltip = Tooltip_ClothRollStick,
+  }
+
+  item ShortClothRollStickBundle {
+    DisplayCategory = Knitting,
+    Weight = 0.09,
+    Type = Normal,
+    DisplayName = Short Cloth Roll Stick Bundle,
+    Icon = ShortClothRollStickBundle,
+    Tooltip = Tooltip_ClothRollStick,
+  }
+
+  /* Medium */
+  item CottonCloth {
+    DisplayCategory = Knitting,
+    Weight = 0.05,
+    Type = Normal,
+    DisplayName = Cotton Cloth,
+    Icon = CottonCloth,
+    Tooltip = Tooltip_CottonCloth,
+    FabricType = Cotton,
+  }
+
+  item CottonClothRoll {
+    DisplayCategory = Knitting,
+    Weight = 0.165,
+    Type = Normal,
+    DisplayName = Cotton Cloth Roll,
+    Icon = CottonClothRoll,
+    Tooltip = Tooltip_CottonClothRoll,
+    FabricType = Cotton,
+  }
+
+  item CottonClothRollBundle {
+    DisplayCategory = Knitting,
+    Weight = 1.55,
+    Type = Normal,
+    DisplayName = Cotton Cloth Roll Bundle,
+    Icon = CottonClothRollBundle,
+    Tooltip = Tooltip_CottonClothRoll,
+    FabricType = Cotton,
+  }
+
+  item ClothRollStick {
+    DisplayCategory = Knitting,
+    Weight = 0.02,
+    Type = Normal,
+    DisplayName = Cloth Roll Stick,
+    Icon = ClothRollStick,
+    Tooltip = Tooltip_ClothRollStick,
+  }
+
+  item ClothRollStickBundle {
+    DisplayCategory = Knitting,
+    Weight = 0.18,
+    Type = Normal,
+    DisplayName = Cloth Roll Stick Bundle,
+    Icon = ClothRollStickBundle,
+    Tooltip = Tooltip_ClothRollStick,
+  }
+
+  /* Big */
+  item BigCottonCloth {
+    DisplayCategory = Knitting,
+    Weight = 0.1,
+    Type = Normal,
+    DisplayName = Big Cotton Cloth,
+    Icon = BigCottonCloth,
+    Tooltip = Tooltip_CottonCloth,
+    FabricType = Cotton,
+  }
+
+  item BigCottonClothRoll {
+    DisplayCategory = Knitting,
+    Weight = 0.33,
+    Type = Normal,
+    DisplayName = Big Cotton Cloth Roll,
+    Icon = BigCottonClothRoll,
+    Tooltip = Tooltip_CottonClothRoll,
+    FabricType = Cotton,
+  }
+
+  item BigCottonClothRollBundle {
+    DisplayCategory = Knitting,
+    Weight = 3.0,
+    Type = Normal,
+    DisplayName = Big Cotton Cloth Roll Bundle,
+    Icon = BigCottonClothRollBundle,
+    Tooltip = Tooltip_CottonClothRoll,
+    FabricType = Cotton,
+  }
+
+  item LongClothRollStick {
+    DisplayCategory = Knitting,
+    Weight = 0.03,
+    Type = Normal,
+    DisplayName = Long Cloth Roll Stick,
+    Icon = LongClothRollStick,
+    Tooltip = Tooltip_ClothRollStick,
+  }
+
+  item LongClothRollStickBundle {
+    DisplayCategory = Knitting,
+    Weight = 0.26,
+    Type = Normal,
+    DisplayName = Long Cloth Roll Stick Bundle,
+    Icon = LongClothRollStickBundle,
+    Tooltip = Tooltip_ClothRollStick,
+  }
+}

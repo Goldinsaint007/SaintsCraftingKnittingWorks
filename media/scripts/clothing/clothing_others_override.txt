@@ -1,0 +1,270 @@
+module Base {
+	item Gloves_FingerlessGloves {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Fingerless Gloves,
+		ClothingItem = Gloves_FingerlessGloves,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesFingerlessWhite,
+		Weight = 0.1,
+		Insulation = 0.25,
+		WindResistance = 0.3,
+		FabricType = Cotton,
+		WorldStaticModel = Gloves_Ground,
+	}
+
+	item Tie_BowTieFull {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bow Tie,
+		ClothingItem = Tie_BowTieFull,
+		BodyLocation = Neck,
+		Icon = TieBowBlack,
+		FabricType = Linen,
+		WorldStaticModel = BowTie_Ground,
+	}
+
+	item Tie_BowTieWorn {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Clip-on Bow Tie,
+		ClothingItem = Tie_BowTieWorn,
+		BodyLocation = Neck,
+		Icon = TieBowBlack,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = BowTie_Ground,
+	}
+
+	item Tie_Full {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tie,
+		ClothingItem = Tie_Full,
+		BodyLocation = Neck,
+		IconsForTexture = TieBlack;TieBlue;TieBlueDot;TieBlueStripe;TieMulticolour;TieRed;TieRedDot;TieRedStripe,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = Tie_Ground,
+	}
+	
+	item Tie_Full_Spiffo {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Spiffo Tie,
+		ClothingItem = Tie_Full_Spiffo,
+		BodyLocation = Neck,
+		Icon = TieSpiffo,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = Tie_Ground,
+	}
+
+	item Tie_Worn {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Clip-on Tie,
+		ClothingItem = Tie_Worn,
+		BodyLocation = Neck,
+		IconsForTexture = TieBlack;TieBlue;TieBlueDot;TieBlueStripe;TieMulticolour;TieRed;TieRedDot;TieRedStripe,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = Tie_Ground,
+	}
+
+	item Tie_Worn_Spiffo {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Clip-on Spiffo Tie,
+		ClothingItem = Tie_Worn_Spiffo,
+		BodyLocation = Neck,
+		Icon = TieSpiffo,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = Tie_Ground,
+	}
+
+	item Bikini_TINT {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bikini,
+		ClothingItem = Bikini_TINT,
+		BodyLocation = Underwear,
+		Icon = Bikini_White,
+		Weight = 0.2,
+		FabricType = Linen,
+		WorldStaticModel = Bikini_Ground,
+	}
+
+	item Bikini_Pattern01 {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bikini,
+		ClothingItem = Bikini_Pattern01,
+		BodyLocation = Underwear,
+		Icon = Bikini_OrangePolkaDot,
+		Weight = 0.2,
+		FabricType = Linen,
+		WorldStaticModel = Bikini_Ground,
+	}
+
+	item SwimTrunks_Blue {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swim Trunks,
+		ClothingItem = SwimTrunks_Blue,
+		BodyLocation = Underwear,
+		Icon = Swimtrunks_Blue,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = SwimTrunks_Ground,
+	}
+
+	item SwimTrunks_Green {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swim Trunks,
+		ClothingItem = SwimTrunks_Green,
+		BodyLocation = Underwear,
+		Icon = Swimtrunks_Green,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = SwimTrunks_Ground,
+	}
+
+	item SwimTrunks_Red {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swim Trunks,
+		ClothingItem = SwimTrunks_Red,
+		BodyLocation = Underwear,
+		Icon = Swimtrunks_Red,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = SwimTrunks_Ground,
+	}
+
+	item SwimTrunks_Yellow {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swim Trunks,
+		ClothingItem = SwimTrunks_Yellow,
+		BodyLocation = Underwear,
+		Icon = Swimtrunks_Yellow,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = SwimTrunks_Ground,
+	}
+
+	item Swimsuit_TINT {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Swimsuit,
+		ClothingItem = Swimsuit_TINT,
+		BodyLocation = Underwear,
+		Icon = Swimsuit_White,
+		Weight = 0.1,
+		FabricType = Linen,
+		WorldStaticModel = SwimSuit_Ground,
+	}
+
+	item Belt2 {
+		DisplayCategory = Accessory,
+		Weight	=	0.2,
+		Type	=	Clothing,
+		DisplayName	=	Belt,
+		Icon	=	Belt,
+		BodyLocation = Belt,
+		ClothingItem = Belt,
+		AttachmentsProvided = SmallBeltLeft;SmallBeltRight,
+		FabricType = Leather,
+		WorldStaticModel = Belt_Ground,
+	}
+
+	item HolsterSimple {
+		DisplayCategory = Accessory,
+		Weight	=	0.2,
+		Type	=	Clothing,
+		DisplayName	=	Holster,
+		Icon	=	GunHolster,
+		BodyLocation = BeltExtra,
+		ClothingItem = Holster,
+		AttachmentsProvided = HolsterRight,
+		FabricType = Leather,
+		WorldStaticModel = Holster_Ground,
+	}
+
+	item HolsterDouble {
+		DisplayCategory = Accessory,
+		Weight	=	0.2,
+		Type	=	Clothing,
+		DisplayName	=	Double Holster,
+		Icon	=	GunHolsterDouble,
+		BodyLocation = BeltExtra,
+		ClothingItem = HolsterDouble,
+		AttachmentsProvided = HolsterLeft;HolsterRight,
+		FabricType = Leather,
+		WorldStaticModel = Holster_Ground,
+	}
+
+	item AmmoStrap_Bullets {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bullets Ammo Strap,
+		ClothingItem = AmmoStrap_Bullets,
+		BodyLocation = AmmoStrap,
+		Icon = AmmoStrap,
+		FabricType = Denim,
+		WorldStaticModel = AmmoStrap_Ground,
+		Tags = ReloadFastBullets,
+	}
+
+	item AmmoStrap_Shells {
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Shells Ammo Strap,
+		ClothingItem = AmmoStrap_Shells,
+		BodyLocation = AmmoStrap,
+		Icon = AmmoStrap,
+		Tooltip = Tooltip_AmmoStrap,
+		WorldStaticModel = AmmoStrap_Ground,
+		FabricType = Denim,
+		Tags = ReloadFastShells,
+	}
+
+	item BunnyTail {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bunny Tail,
+		ClothingItem = BunnyTail,
+		BodyLocation = Tail,
+		Icon = Rabbittail,
+		FabricType = Cotton,
+		WorldStaticModel = BunnyTail_Ground,
+	}
+
+	item BunnySuitBlack {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bunny Suit,
+		ClothingItem = BunnySuitBlack,
+		BodyLocation = Underwear,
+		Icon = GlassesBlack,
+		Weight = 0.1,
+		FabricType = Cotton,
+		WorldStaticModel = BunnySuitBlack_Ground,
+	}
+
+	item BunnySuitPink {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Bunny Suit,
+		ClothingItem = BunnySuitPink,
+		BodyLocation = Underwear,
+		Icon = GlassesRed,
+		Weight = 0.1,
+		FabricType = Cotton,
+		WorldStaticModel = BunnySuitPink_Ground,
+	}
+}

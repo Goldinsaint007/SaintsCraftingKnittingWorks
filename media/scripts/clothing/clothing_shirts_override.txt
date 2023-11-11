@@ -1,0 +1,136 @@
+module Base {
+    item Vest_BulletArmy {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Bulletproof Vest,
+        ClothingItem = Vest_BulletArmy,
+        BodyLocation = TorsoExtraVest,
+        Icon = BulletVestCamo,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.75,
+        WindResistance = 0.45,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        FabricType = Linen,
+        WorldStaticModel = BulletVest_Ground,
+    }
+
+    item Vest_BulletCivilian {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Civilian Bulletproof Vest,
+        ClothingItem = Vest_BulletCivilian,
+        BodyLocation = TorsoExtraVest,
+        Icon = BulletVestWhite,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        FabricType = Linen,
+        WorldStaticModel = BulletVest_Ground,
+    }
+
+    item Vest_BulletPolice {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Bulletproof Vest,
+        ClothingItem = Vest_BulletPolice,
+        BodyLocation = TorsoExtraVest,
+        Icon = BulletVestPolice,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        FabricType = Linen,
+        WorldStaticModel = BulletVest_Ground,
+    }
+
+    item Vest_Hunting_Grey {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Grey Hunting Vest,
+        ClothingItem = Vest_Hunting_Grey,
+        BodyLocation = TorsoExtraVest,
+        Icon = Huntingvest_Grey,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.90,
+        WindResistance = 0.80,
+        FabricType = Linen,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+
+    item Vest_Hunting_Orange {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Orange Hunting Vest,
+        ClothingItem = Vest_Hunting_Orange,
+        BodyLocation = TorsoExtraVest,
+        Icon = Huntingvest_Orange,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Linen,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+
+    item Vest_Hunting_Camo {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Camo Hunting Vest,
+        ClothingItem = Vest_Hunting_Camo,
+        BodyLocation = TorsoExtraVest,
+        Icon = Huntingvest_Camo,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.8,
+        WindResistance = 0.65,
+        FabricType = Linen,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+
+    item Vest_Hunting_CamoGreen {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Green Camo Hunting Vest,
+        ClothingItem = Vest_Hunting_CamoGreen,
+        BodyLocation = TorsoExtraVest,
+        Icon = Huntingvest_Camo,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.70,
+        WindResistance = 0.80,
+        FabricType = Linen,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+
+    item Vest_Foreman {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Foreman Vest,
+        ClothingItem = Vest_Foreman,
+        BodyLocation = TorsoExtraVest,
+        Icon = ForemanVest,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.70,
+        WindResistance = 0.55,
+        FabricType = Linen,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+
+    item Vest_HighViz {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = High Visibility Vest,
+        ClothingItem = Vest_HighViz,
+        BodyLocation = TorsoExtraVest,
+        Icon = ConstructionVest,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        FabricType = Linen,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+}
