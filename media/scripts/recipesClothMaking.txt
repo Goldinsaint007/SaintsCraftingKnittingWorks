@@ -283,18 +283,66 @@ module SaintsCrafting {
     OnGiveXP:Recipe.OnGiveXP.StitchCloth,
   }
 
-  recipe Carve Cloth Roll Stick {
+  recipe Carve Long Cloth Roll Stick {
     keep [Recipe.GetItemTypes.SharpKnife],
-    TreeBranch = 3,
+    TreeBranch = 1,
 
 		SkillRequired:Tailoring=3,
-    Result:LongClothRollStick = 3,
+    Result:LongClothRollStick = 1,
+    InSameInventory:true,
+    Sound:Sawing,
+    Time:110.0,
+    AnimNode:SawLog,
+    Prop1:Source=1,
+    Prop2:TreeBranch,
+    OnGiveXP:Recipe.OnGiveXP.CarveClothRollStick,
+  }
+
+  recipe Carve Short Cloth Roll Stick {
+    Plank,
+    keep [Recipe.GetItemTypes.Saw],
+    keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=3,
+    Result:ShortClothRollStick = 6,
+    InSameInventory:true,
+    Sound:Sawing,
+    Time:150.0,
+    AnimNode:SawLog,
+    Prop1:Source=2,
+    Prop2:Plank,
+    OnGiveXP:Recipe.OnGiveXP.CarveClothRollStick,
+  }
+
+  recipe Carve Cloth Roll Stick {
+    Plank,
+    keep [Recipe.GetItemTypes.Saw],
+    keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=2,
+    Result:ClothRollStick = 3,
+    InSameInventory:true,
+    Sound:Sawing,
+    Time:180.0,
+    AnimNode:SawLog,
+    Prop1:Source=2,
+    Prop2:Plank,
+    OnGiveXP:Recipe.OnGiveXP.CarveClothRollStick,
+  }
+
+  recipe Carve Long Cloth Roll Stick {
+    Plank,
+    keep [Recipe.GetItemTypes.Saw],
+    keep [Recipe.GetItemTypes.SharpKnife],
+
+		SkillRequired:Tailoring=3,
+    Result:LongClothRollStick = 2,
     InSameInventory:true,
     Sound:Sawing,
     Time:220.0,
     AnimNode:SawLog,
-    Prop1:Source=1,
-    Prop2:TreeBranch,
+    Prop1:Source=2,
+    Prop2:Plank,
     OnGiveXP:Recipe.OnGiveXP.CarveClothRollStick,
   }
 }
