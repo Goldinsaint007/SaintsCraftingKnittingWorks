@@ -9,7 +9,7 @@ module SaintsCrafting {
     Weight = 0.025,
     Type = Normal,
     DisplayName = Small Cotton Cloth,
-    Icon = CottonCloth,
+    Icon = SmallCottonCloth,
     Tooltip = Tooltip_CottonCloth,
     FabricType = Cotton,
   }
