@@ -1,3 +1,6 @@
 Tooltip_EN = {
 	Tooltip_RippedLinens = "Can be used as an improvised bandage, Can also be used to make thread from but needs a scissor and a needle",
+	Tooltip_SterilizedRippedLinen = "Purified and sterilized Ripped Linen, ideal for crafting medical supplies and makeshift bandages.",
+	Tooltip_CottonCloth = "Soft and versatile cotton cloth, suitable for crafting various garments and items.",
+	Tooltip_ClothRollStick = "A handy tool for organizing fabrics, it helps to reduce the weight and space of the material.",
 }

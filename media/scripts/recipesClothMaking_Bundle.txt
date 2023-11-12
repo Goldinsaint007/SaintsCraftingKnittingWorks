@@ -1,0 +1,209 @@
+module SaintsCrafting {
+  imports {
+    Base, newitems
+  }
+
+  /* Tier 0 */
+	recipe Tie Bundle Small Cloth Roll {
+		SmallCottonClothRoll = 3,
+		SheetRope = 2,
+
+		Result:SmallCottonClothRollBundle_SheetRope,
+		Time:45.0,
+	}
+	recipe Tie Bundle Small Cloth Roll {
+		SmallCottonClothRoll = 3,
+		ShortRope,
+
+		Result:SmallCottonClothRollBundle_ShortRope,
+		Time:45.0,
+	}
+	recipe Untie Bundle Small Cloth Roll {
+		SmallCottonClothRollBundle_SheetRope,
+
+		Result:SmallCottonClothRoll = 3,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:35.0,
+	}
+	recipe Untie Bundle Small Cloth Roll {
+		SmallCottonClothRollBundle_ShortRope,
+
+		Result:SmallCottonClothRoll = 3,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:35.0,
+	}
+
+	recipe Tie Bundle Cloth Roll {
+		CottonClothRoll = 3,
+		SheetRope = 4,
+
+		Result:CottonClothRollBundle_SheetRope,
+		Time:55.0,
+	}
+	recipe Tie Bundle Cloth Roll {
+		CottonClothRoll = 3,
+		ShortRope = 2,
+
+		Result:CottonClothRollBundle_ShortRope,
+		Time:55.0,
+	}
+	recipe Tie Bundle Cloth Roll {
+		CottonClothRoll = 3,
+		Rope,
+
+		Result:CottonClothRollBundle_Rope,
+		Time:55.0,
+	}
+	recipe Untie Bundle Cloth Roll {
+		CottonClothRollBundle_SheetRope,
+
+		Result:CottonClothRoll = 3,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:45.0,
+	}
+	recipe Untie Bundle Cloth Roll {
+		CottonClothRollBundle_ShortRope,
+
+		Result:CottonClothRoll = 3,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:45.0,
+	}
+	recipe Untie Bundle Cloth Roll {
+		CottonClothRollBundle_Rope,
+
+		Result:CottonClothRoll = 3,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:45.0,
+	}
+
+	recipe Tie Bundle Big Cloth Roll {
+		BigCottonClothRoll = 3,
+		SheetRope = 8,
+
+		Result:BigCottonClothRollBundle_SheetRope,
+		Time:65.0,
+	}
+	recipe Tie Bundle Big Cloth Roll {
+		BigCottonClothRoll = 3,
+		ShortRope = 4,
+
+		Result:BigCottonClothRollBundle_ShortRope,
+		Time:65.0,
+	}
+	recipe Tie Bundle Big Cloth Roll {
+		BigCottonClothRoll = 3,
+		Rope = 2,
+
+		Result:BigCottonClothRollBundle_Rope,
+		Time:65.0,
+	}
+	recipe Tie Bundle Big Cloth Roll {
+		BigCottonClothRoll = 3,
+		LongRope,
+
+		Result:BigCottonClothRollBundle_LongRope,
+		Time:65.0,
+	}
+	recipe Untie Bundle Big Cloth Roll {
+		BigCottonClothRollBundle_SheetRope,
+
+		Result:BigCottonClothRoll = 3,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:55.0,
+	}
+	recipe Untie Bundle Big Cloth Roll {
+		BigCottonClothRollBundle_ShortRope,
+
+		Result:BigCottonClothRoll = 3,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:55.0,
+	}
+	recipe Untie Bundle Big Cloth Roll {
+		BigCottonClothRollBundle_Rope,
+
+		Result:BigCottonClothRoll = 3,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:55.0,
+	}
+	recipe Untie Bundle Big Cloth Roll {
+		BigCottonClothRollBundle_LongRope,
+
+		Result:BigCottonClothRoll = 3,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:55.0,
+	}
+
+	recipe Tie Bundle Short Cloth Roll Stick {
+		ShortClothRollStick = 10,
+		SheetRope,
+
+		Result:ShortClothRollStickBundle,
+		Time:25.0,
+	}
+	recipe Untie Bundle Short Cloth Roll Stick {
+		ShortClothRollStickBundle,
+
+		Result:ShortClothRollStick = 10,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:15.0,
+	}
+
+	recipe Tie Bundle Cloth Roll Stick {
+		ClothRollStick = 10,
+		SheetRope = 2,
+
+		Result:ClothRollStickBundle_SheetRope,
+		Time:35.0,
+	}
+	recipe Tie Bundle Cloth Roll Stick {
+		ClothRollStick = 10,
+		ShortRope,
+
+		Result:ClothRollStickBundle_ShortRope,
+		Time:35.0,
+	}
+	recipe Untie Bundle Cloth Roll Stick {
+		ClothRollStickBundle_SheetRope,
+
+		Result:ClothRollStick = 10,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:25.0,
+	}
+	recipe Untie Bundle Cloth Roll Stick {
+		ClothRollStickBundle_ShortRope,
+
+		Result:ClothRollStick = 10,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:25.0,
+	}
+
+	recipe Tie Bundle Long Cloth Roll Stick {
+		LongClothRollStick = 10,
+		SheetRope = 3,
+
+		Result:LongClothRollStickBundle_SheetRope,
+		Time:45.0,
+	}
+	recipe Tie Bundle Long Cloth Roll Stick {
+		LongClothRollStick = 10,
+		ShortRope,
+		SheetRope,
+
+		Result:LongClothRollStickBundle_ShortRope,
+		Time:45.0,
+	}
+	recipe Untie Bundle Long Cloth Roll Stick {
+		LongClothRollStickBundle_SheetRope,
+
+		Result:LongClothRollStick = 10,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:35.0,
+	}
+	recipe Untie Bundle Long Cloth Roll Stick {
+		LongClothRollStickBundle_ShortRope,
+
+		Result:LongClothRollStick = 10,
+		OnCreate:Recipe.OnCreate.UntieClothRoll,
+		Time:35.0,
+	}
+}

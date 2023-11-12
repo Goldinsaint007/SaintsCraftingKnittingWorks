@@ -39,7 +39,7 @@ function Recipe.OnGiveXP.StitchCloth(recipe, ingredients, result, player)
     elseif player:getPerkLevel(Perks.Tailoring) <= 6 then
       addTailorXP(1, player);
     end
-  elseif recipe:getOriginalname() == "Make Small Cotton Cloth Roll" then
+  elseif recipe:getOriginalname() == "Stich Small Cotton Cloth Roll" then
     if player:getPerkLevel(Perks.Tailoring) <= 1 then
       addTailorXP(3, player);
     elseif player:getPerkLevel(Perks.Tailoring) <= 2 then
@@ -47,7 +47,7 @@ function Recipe.OnGiveXP.StitchCloth(recipe, ingredients, result, player)
     elseif player:getPerkLevel(Perks.Tailoring) <= 3 then
       addTailorXP(1, player);
     end
-  elseif recipe:getOriginalname() == "Make Cotton Cloth Roll" then
+  elseif recipe:getOriginalname() == "Stich Cotton Cloth Roll" then
     if player:getPerkLevel(Perks.Tailoring) <= 3 then
       addTailorXP(3, player);
     elseif player:getPerkLevel(Perks.Tailoring) <= 4 then
@@ -55,7 +55,7 @@ function Recipe.OnGiveXP.StitchCloth(recipe, ingredients, result, player)
     elseif player:getPerkLevel(Perks.Tailoring) <= 5 then
       addTailorXP(1, player);
     end
-  elseif recipe:getOriginalname() == "Make Big Cotton Cloth Roll" then
+  elseif recipe:getOriginalname() == "Stich Big Cotton Cloth Roll" then
     if player:getPerkLevel(Perks.Tailoring) <= 4 then
       addTailorXP(3, player);
     elseif player:getPerkLevel(Perks.Tailoring) <= 5 then

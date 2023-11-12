@@ -41,7 +41,7 @@ module SaintsCrafting {
     ReplaceOnUse    =   RippedLinensDirty,
     Icon	=	LinenRag,
     BandagePower    =   2,
-    Tooltip = Tooltip_SterilizedLinenRag,
+    Tooltip = Tooltip_SterilizedRippedLinen,
 		WorldStaticModel = RippedSheets,
   }
 }

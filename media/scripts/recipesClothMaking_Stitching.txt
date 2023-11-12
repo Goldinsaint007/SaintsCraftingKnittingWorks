@@ -1,0 +1,123 @@
+module SaintsCrafting {
+  imports {
+    Base, newitems
+  }
+
+  /* Tier 0 */
+  recipe Stitch Small Cotton Cloth {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    RippedSheets = 2,
+    Thread = 2,
+
+    Result:SmallCottonCloth,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:90.0,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  /* Tier 1 */
+  recipe Stitch Cotton Cloth {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    SmallCottonCloth = 2,
+    Thread = 3,
+
+		SkillRequired:Tailoring=1,
+    Result:CottonCloth,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:120.0,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  recipe Stitch Small Cotton Cloth Roll {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    ShortClothRollStick,
+    SmallCottonCloth = 5,
+    Thread = 4,
+
+		SkillRequired:Tailoring=1,
+    Result:SmallCottonClothRoll,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:190.0,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  /* Tier 2 */
+  recipe Stitch Cotton Cloth {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    RippedSheets = 8,
+    Thread = 6,
+
+		SkillRequired:Tailoring=2,
+    Result:CottonCloth,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:260.0,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  recipe Stitch Big Cotton Cloth {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    CottonCloth = 2,
+    Thread = 4,
+
+		SkillRequired:Tailoring=2,
+    Result:BigCottonCloth,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:160.0,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  recipe Stitch Cotton Cloth Roll {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    ClothRollStick,
+    CottonCloth = 5,
+    Thread = 4,
+
+		SkillRequired:Tailoring=2,
+    Result:CottonClothRoll,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:220.0,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  /* Tier 3 */
+  recipe Stitch Big Cotton Cloth {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    RippedSheets = 16,
+    Thread = 12,
+
+		SkillRequired:Tailoring=3,
+    Result:BigCottonCloth,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:290.0,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  recipe Stitch Big Cotton Cloth Roll {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    LongClothRollStick,
+    BigCottonCloth = 5,
+    Thread = 6,
+
+		SkillRequired:Tailoring=3,
+    Result:BigCottonClothRoll,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:250.0,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+}
