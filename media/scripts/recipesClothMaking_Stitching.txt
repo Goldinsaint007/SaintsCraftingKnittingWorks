@@ -13,6 +13,21 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:90.0,
+    Category:Knitting Works,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  recipe Stitch Bandage {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    Thread = 1,
+    SmallCottonCloth = 2,
+
+    Result:Bandage,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:75.0,
+    Category:Knitting Works,
     AnimNode:RipSheets,
     OnGiveXP:Recipe.OnGiveXP.StitchCloth,
   }
@@ -28,6 +43,7 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:120.0,
+    Category:Knitting Works,
     AnimNode:RipSheets,
     OnGiveXP:Recipe.OnGiveXP.StitchCloth,
   }
@@ -43,6 +59,23 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:190.0,
+    Category:Knitting Works,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  recipe Stitch Bandage {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.SharpKnife],
+    Thread = 1,
+    CottonCloth,
+
+		SkillRequired:Tailoring=1,
+    Result:Bandage = 2,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:60.0,
+    Category:Knitting Works,
     AnimNode:RipSheets,
     OnGiveXP:Recipe.OnGiveXP.StitchCloth,
   }
@@ -58,6 +91,7 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:260.0,
+    Category:Knitting Works,
     AnimNode:RipSheets,
     OnGiveXP:Recipe.OnGiveXP.StitchCloth,
   }
@@ -72,6 +106,7 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:160.0,
+    Category:Knitting Works,
     AnimNode:RipSheets,
     OnGiveXP:Recipe.OnGiveXP.StitchCloth,
   }
@@ -87,6 +122,23 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:220.0,
+    Category:Knitting Works,
+    AnimNode:RipSheets,
+    OnGiveXP:Recipe.OnGiveXP.StitchCloth,
+  }
+
+  recipe Stitch Bandage {
+    keep [Recipe.GetItemTypes.SewingNeedle],
+    keep [Recipe.GetItemTypes.Scissors]/[Recipe.GetItemTypes.SharpKnife],
+    Thread = 2,
+    BigCottonCloth,
+
+		SkillRequired:Tailoring=2,
+    Result:Bandage = 4,
+    InSameInventory:true,
+    Sound:ClothesRipping,
+    Time:70.0,
+    Category:Knitting Works,
     AnimNode:RipSheets,
     OnGiveXP:Recipe.OnGiveXP.StitchCloth,
   }
@@ -102,6 +154,7 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:290.0,
+    Category:Knitting Works,
     AnimNode:RipSheets,
     OnGiveXP:Recipe.OnGiveXP.StitchCloth,
   }
@@ -117,6 +170,7 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:250.0,
+    Category:Knitting Works,
     AnimNode:RipSheets,
     OnGiveXP:Recipe.OnGiveXP.StitchCloth,
   }

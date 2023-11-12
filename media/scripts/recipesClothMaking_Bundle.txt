@@ -10,6 +10,7 @@ module SaintsCrafting {
 
 		Result:SmallCottonClothRollBundle_SheetRope,
 		Time:45.0,
+		Category:Knitting Works,
 	}
 	recipe Tie Bundle Small Cloth Roll {
 		SmallCottonClothRoll = 3,
@@ -17,13 +18,15 @@ module SaintsCrafting {
 
 		Result:SmallCottonClothRollBundle_ShortRope,
 		Time:40.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Small Cloth Roll {
 		SmallCottonClothRollBundle_SheetRope,
 
 		Result:SmallCottonClothRoll = 3,
-		OnCreate:Recipe.OnCreate.UntieRollBundleBundle,
+		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:35.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Small Cloth Roll {
 		SmallCottonClothRollBundle_ShortRope,
@@ -31,6 +34,7 @@ module SaintsCrafting {
 		Result:SmallCottonClothRoll = 3,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:30.0,
+		Category:Knitting Works,
 	}
 
 	recipe Tie Bundle Cloth Roll {
@@ -39,6 +43,7 @@ module SaintsCrafting {
 
 		Result:CottonClothRollBundle_SheetRope,
 		Time:55.0,
+		Category:Knitting Works,
 	}
 	recipe Tie Bundle Cloth Roll {
 		CottonClothRoll = 3,
@@ -46,6 +51,7 @@ module SaintsCrafting {
 
 		Result:CottonClothRollBundle_ShortRope,
 		Time:50.0,
+		Category:Knitting Works,
 	}
 	recipe Tie Bundle Cloth Roll {
 		CottonClothRoll = 3,
@@ -53,6 +59,7 @@ module SaintsCrafting {
 
 		Result:CottonClothRollBundle_Rope,
 		Time:45.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Cloth Roll {
 		CottonClothRollBundle_SheetRope,
@@ -60,6 +67,7 @@ module SaintsCrafting {
 		Result:CottonClothRoll = 3,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:45.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Cloth Roll {
 		CottonClothRollBundle_ShortRope,
@@ -67,6 +75,7 @@ module SaintsCrafting {
 		Result:CottonClothRoll = 3,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:40.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Cloth Roll {
 		CottonClothRollBundle_Rope,
@@ -74,6 +83,7 @@ module SaintsCrafting {
 		Result:CottonClothRoll = 3,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:35.0,
+		Category:Knitting Works,
 	}
 
 	recipe Tie Bundle Big Cloth Roll {
@@ -82,6 +92,7 @@ module SaintsCrafting {
 
 		Result:BigCottonClothRollBundle_SheetRope,
 		Time:65.0,
+		Category:Knitting Works,
 	}
 	recipe Tie Bundle Big Cloth Roll {
 		BigCottonClothRoll = 5,
@@ -89,6 +100,7 @@ module SaintsCrafting {
 
 		Result:BigCottonClothRollBundle_ShortRope,
 		Time:60.0,
+		Category:Knitting Works,
 	}
 	recipe Tie Bundle Big Cloth Roll {
 		BigCottonClothRoll = 5,
@@ -96,6 +108,7 @@ module SaintsCrafting {
 
 		Result:BigCottonClothRollBundle_Rope,
 		Time:55.0,
+		Category:Knitting Works,
 	}
 	recipe Tie Bundle Big Cloth Roll {
 		BigCottonClothRoll = 5,
@@ -103,6 +116,7 @@ module SaintsCrafting {
 
 		Result:BigCottonClothRollBundle_LongRope,
 		Time:50.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Big Cloth Roll {
 		BigCottonClothRollBundle_SheetRope,
@@ -110,6 +124,7 @@ module SaintsCrafting {
 		Result:BigCottonClothRoll = 5,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:55.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Big Cloth Roll {
 		BigCottonClothRollBundle_ShortRope,
@@ -117,6 +132,7 @@ module SaintsCrafting {
 		Result:BigCottonClothRoll = 5,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:50.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Big Cloth Roll {
 		BigCottonClothRollBundle_Rope,
@@ -124,6 +140,7 @@ module SaintsCrafting {
 		Result:BigCottonClothRoll = 5,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:45.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Big Cloth Roll {
 		BigCottonClothRollBundle_LongRope,
@@ -131,6 +148,7 @@ module SaintsCrafting {
 		Result:BigCottonClothRoll = 5,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:40.0,
+		Category:Knitting Works,
 	}
 
 	recipe Tie Bundle Short Cloth Roll Stick {
@@ -139,6 +157,7 @@ module SaintsCrafting {
 
 		Result:ShortClothRollStickBundle,
 		Time:25.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Short Cloth Roll Stick {
 		ShortClothRollStickBundle,
@@ -146,6 +165,7 @@ module SaintsCrafting {
 		Result:ShortClothRollStick = 10,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:15.0,
+		Category:Knitting Works,
 	}
 
 	recipe Tie Bundle Cloth Roll Stick {
@@ -154,6 +174,7 @@ module SaintsCrafting {
 
 		Result:ClothRollStickBundle_SheetRope,
 		Time:35.0,
+		Category:Knitting Works,
 	}
 	recipe Tie Bundle Cloth Roll Stick {
 		ClothRollStick = 10,
@@ -161,6 +182,7 @@ module SaintsCrafting {
 
 		Result:ClothRollStickBundle_ShortRope,
 		Time:30.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Cloth Roll Stick {
 		ClothRollStickBundle_SheetRope,
@@ -168,6 +190,7 @@ module SaintsCrafting {
 		Result:ClothRollStick = 10,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:25.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Cloth Roll Stick {
 		ClothRollStickBundle_ShortRope,
@@ -175,6 +198,7 @@ module SaintsCrafting {
 		Result:ClothRollStick = 10,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:20.0,
+		Category:Knitting Works,
 	}
 
 	recipe Tie Bundle Long Cloth Roll Stick {
@@ -183,6 +207,7 @@ module SaintsCrafting {
 
 		Result:LongClothRollStickBundle_SheetRope,
 		Time:45.0,
+		Category:Knitting Works,
 	}
 	recipe Tie Bundle Long Cloth Roll Stick {
 		LongClothRollStick = 10,
@@ -191,6 +216,7 @@ module SaintsCrafting {
 
 		Result:LongClothRollStickBundle_ShortRope,
 		Time:40.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Long Cloth Roll Stick {
 		LongClothRollStickBundle_SheetRope,
@@ -198,6 +224,7 @@ module SaintsCrafting {
 		Result:LongClothRollStick = 10,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:35.0,
+		Category:Knitting Works,
 	}
 	recipe Untie Bundle Long Cloth Roll Stick {
 		LongClothRollStickBundle_ShortRope,
@@ -205,5 +232,6 @@ module SaintsCrafting {
 		Result:LongClothRollStick = 10,
 		OnCreate:Recipe.OnCreate.UntieRollBundle,
 		Time:30.0,
+		Category:Knitting Works,
 	}
 }

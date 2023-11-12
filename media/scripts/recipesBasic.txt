@@ -16,7 +16,8 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:100.0,
-    AnimNode:RipSheets,
+    Category:Knitting Works,
+	  AnimNode:RipSheets,
     OnCreate:Recipe.OnCreate.CutClothing21,
     OnTest:Recipe.OnTest.IsNotWorn,
   }
@@ -31,7 +32,8 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:100.0,
-    AnimNode:RipSheets,
+    Category:Knitting Works,
+	  AnimNode:RipSheets,
     OnCreate:Recipe.OnCreate.CutClothing21,
     OnTest:Recipe.OnTest.IsWorn,
   }
@@ -46,7 +48,8 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:100.0,
-    AnimNode:RipSheets,
+    Category:Knitting Works,
+	  AnimNode:RipSheets,
     OnCreate:Recipe.OnCreate.CutClothing21,
     OnTest:Recipe.OnTest.IsNotWorn,
   }
@@ -61,7 +64,8 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:100.0,
-    AnimNode:RipSheets,
+    Category:Knitting Works,
+	  AnimNode:RipSheets,
     OnCreate:Recipe.OnCreate.CutClothing21,
     OnTest:Recipe.OnTest.IsWorn,
   }
@@ -76,7 +80,8 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:100.0,
-    AnimNode:RipSheets,
+    Category:Knitting Works,
+	  AnimNode:RipSheets,
     OnCreate:Recipe.OnCreate.CutClothing21,
     OnTest:Recipe.OnTest.IsNotWorn,
   }
@@ -91,7 +96,8 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:100.0,
-    AnimNode:RipSheets,
+    Category:Knitting Works,
+	  AnimNode:RipSheets,
     OnCreate:Recipe.OnCreate.CutClothing21,
     OnTest:Recipe.OnTest.IsWorn,
   }
@@ -106,7 +112,8 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:100.0,
-    AnimNode:RipSheets,
+    Category:Knitting Works,
+	  AnimNode:RipSheets,
     OnCreate:Recipe.OnCreate.CutClothing21,
     OnTest:Recipe.OnTest.IsNotWorn,
   }
@@ -121,7 +128,8 @@ module SaintsCrafting {
     InSameInventory:true,
     Sound:ClothesRipping,
     Time:100.0,
-    AnimNode:RipSheets,
+    Category:Knitting Works,
+	  AnimNode:RipSheets,
     OnCreate:Recipe.OnCreate.CutClothing21,
     OnTest:Recipe.OnTest.IsWorn,
   }
