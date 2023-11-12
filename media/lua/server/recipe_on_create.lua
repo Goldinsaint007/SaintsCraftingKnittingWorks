@@ -88,8 +88,39 @@ function Recipe.OnCreate.CutClothing21(items, result, player, selectedItem)
   end
 end
 
-function Recipe.OnCreate.UntieClothRoll(items, result, player)
-  player:getInventory():AddItem("SaintsRopes.ShortRope");
+function Recipe.OnCreate.UntieRollBundle(items, result, player)
+  local item = items:get(0);
+
+  if item:getType() == "SmallCottonClothRollBundle_SheetRope" then
+    player:getInventory():AddItem("SaintsRopes.SheetRope", 2);
+  elseif item:getType() == "CottonClothRollBundle_SheetRope" then
+    player:getInventory():AddItem("SaintsRopes.SheetRope", 4);
+  elseif item:getType() == "BigCottonClothRollBundle_SheetRope" then
+    player:getInventory():AddItem("SaintsRopes.SheetRope", 8);
+  elseif item:getType() == "SmallCottonClothRollBundle_ShortRope" then
+    player:getInventory():AddItem("SaintsRopes.ShortRope");
+  elseif item:getType() == "BigCottonClothRollBundle_ShortRope" then
+    player:getInventory():AddItem("SaintsRopes.ShortRope", 2);
+  elseif item:getType() == "CottonClothRollBundle_ShortRope" then
+    player:getInventory():AddItem("SaintsRopes.ShortRope", 4);
+  elseif item:getType() == "CottonClothRollBundle_Rope" then
+    player:getInventory():AddItem("SaintsRopes.Rope");
+  elseif item:getType() == "BigCottonClothRollBundle_Rope" then
+    player:getInventory():AddItem("SaintsRopes.Rope", 2);
+  elseif item:getType() == "BigCottonClothRollBundle_LongRope" then
+    player:getInventory():AddItem("SaintsRopes.LongRope");
+  elseif item:getType() == "ShortClothRollStickBundle" then
+    player:getInventory():AddItem("SaintsRopes.SheetRope");
+  elseif item:getType() == "ClothRollStickBundle_SheetRope" then
+    player:getInventory():AddItem("SaintsRopes.SheetRope", 2);
+  elseif item:getType() == "ClothRollStickBundle_ShortRope" then
+    player:getInventory():AddItem("SaintsRopes.ShortRope");
+  elseif item:getType() == "LongClothRollStickBundle_SheetRope" then
+    player:getInventory():AddItem("SaintsRopes.SheetRope", 3);
+  elseif item:getType() == "LongClothRollStickBundle_ShortRope" then
+    player:getInventory():AddItem("SaintsRopes.ShortRope");
+    player:getInventory():AddItem("SaintsRopes.SheetRope");
+  end
 end
 
 function Recipe.OnCreate.CutCottonClothRoll(items, result, player)

@@ -5,8 +5,8 @@ module SaintsCrafting {
 
   /* Tier 1 */
   recipe Carve Short Cloth Roll Stick {
-    keep [Recipe.GetItemTypes.SharpKnife],
     TreeBranch,
+    keep [Recipe.GetItemTypes.SharpKnife],
 
 		SkillRequired:Tailoring=1,
     Result:ShortClothRollStick = 3,
@@ -21,8 +21,8 @@ module SaintsCrafting {
 
   /* Tier 2 */
   recipe Carve Cloth Roll Stick {
-    keep [Recipe.GetItemTypes.SharpKnife],
     TreeBranch = 2,
+    keep [Recipe.GetItemTypes.SharpKnife],
 
 		SkillRequired:Tailoring=2,
     Result:ClothRollStick = 3,
@@ -37,8 +37,8 @@ module SaintsCrafting {
 
   /* Tier 3 */
   recipe Carve Long Cloth Roll Stick {
-    keep [Recipe.GetItemTypes.SharpKnife],
     TreeBranch = 1,
+    keep [Recipe.GetItemTypes.SharpKnife],
 
 		SkillRequired:Tailoring=3,
     Result:LongClothRollStick = 1,
